@@ -69,6 +69,9 @@ def statistiekendeamon():
             if naam == '': #Make sure pin or cash doesnt crash the system
                 pass
             elif int(naam) in commissiedict and commissiedict[int(naam)] != '':
+				if commissiedict[int(naam)] not in turfdictalcohol:
+					turfdictalcohol[commissiedict[int(naam)]] = 0
+					turfdictfris[commissiedict[int(naam)]] = 0
                 if int(product) == 8010:
                     turfdictalcohol[commissiedict[int(naam)]] += int(hoeveel)
                 if int(product) == 8020:

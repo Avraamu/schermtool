@@ -1,5 +1,6 @@
 import requests
 import numpy as np
+from configuratie import rekeningenfile
 from accountfile import gebruikersnaam, wachtwoord
 
 def pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn):
@@ -42,7 +43,7 @@ def pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn):
     return pagina.content.splitlines()
 
 def nummerscommissies():
-    f = np.genfromtxt("commissiefile_stat.csv", skip_header=1, delimiter=";")
+    f = np.genfromtxt(rekeningenfile, skip_header=1, delimiter=";")
     return f
 
     
