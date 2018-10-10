@@ -1,2 +1,0 @@
-gebruikersnaam = 'ArjanIsEenLoser'
-wachtwoord = 'BraVincentBraVhoogeboom'
