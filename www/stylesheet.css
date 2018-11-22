@@ -1,5 +1,5 @@
 body {
-	 background-image: url("http://localhost:9999/static/background.jpg");
+	 background-image: url("http://127.0.0.1:9999/static/background.png");
 	 background-repeat: no-repeat;
 }
 

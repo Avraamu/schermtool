@@ -23,8 +23,8 @@ dh = dh-2
 statistiekenaan = 1
 sintzuipt = 1
 kerstmanzuipt = 1
-productsint = 689841
-productkerstman = 689837	
+productsint = 689837
+productkerstman = 689841	
 testing = 0
 
 @app.route('/index/daemon/')
@@ -75,7 +75,7 @@ def statistiekendeamon():
 	
     print "Sint: " + str(sintzuipt) +", Kerstman: " + str(kerstmanzuipt)
     
-    sequence = '<table><tr width="1200px"><td width='+ str(kerstmanbalkje) +'px" bgcolor="#00FF00">Santa</td><td width=' + str(sintbalkje) + 'px" bgcolor="#FF0000">Sint</td></tr></table>' 
+    sequence = '<table><tr width="1200px" height="120px"><td width='+ str(sintbalkje) +'px" bgcolor="#880000">Sinterklaas JUP</td><td width=' + str(kerstmanbalkje) + 'px" bgcolor="#008800">Kerstman HJ</td></tr></table>' 
 
     return sequence        
     
