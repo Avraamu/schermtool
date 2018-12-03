@@ -75,7 +75,7 @@ def statistiekendeamon():
 	
     print "Sint: " + str(sintzuipt) +", Kerstman: " + str(kerstmanzuipt)
     
-    sequence = '<table><tr width="1200px" height="120px"><td width='+ str(sintbalkje) +'px" bgcolor="#880000">Sinterklaas JUP</td><td width=' + str(kerstmanbalkje) + 'px" bgcolor="#008800">Kerstman HJ</td></tr></table>' 
+    sequence = '<table><tr width="1200px" height="120px"><td width='+ str(sintbalkje) +'px" style="background-color:rgba(255,193,0,0.85);">Sinterklaas JUP</td><td width=' + str(kerstmanbalkje) + 'px" style="background-color:rgba(255,0,0,0.85);">Kerstman HJ</td></tr></table>' 
 
     return sequence        
     
